@@ -1,0 +1,182 @@
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=iso-8859-1"/>
+    <title>About Us</title>
+
+    <link rel="stylesheet" href="/assets/whitesand-71cb9a0861ad2bab73a9e5eeb4cade91.css"/>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/assets/whitesand-506a19e8e8b12e8e2cb70f42da3d0b20.js" ></script>
+
+    <script type="text/javascript">
+        Cufon.replace('h2');
+        Cufon.replace('a.button span, button span');
+        Cufon.replace('#menu a', {hover: true});
+    </script>
+
+    
+    
+        </parameter>
+        
+        
+	</parameter>  
+	
+
+    
+
+</head>
+
+<body class="secondary ">
+
+<div id="spinner" class="spinner" style="display:none;">
+    <img src="/assets/spinner-c7b3cbb3ec8249a7121b722cdd76b870.gif"
+         alt="Loading..."/>
+</div>
+
+
+<div id="frame" class="container-fluid">
+
+    <div id="title" class="row">
+
+        <div id="menu">
+            <ul class="clearfix">
+
+                <li id="menu1" class="">
+                    <a href="/">Home</a>
+                </li>
+
+                <li id="menu2" class="active">
+                    <a href="/aboutUs">About Us</a>
+                </li>
+                <li id="menu3" class="">
+                    <a href="/research">Services</a>
+                </li>
+                <li id="menu4" class="">
+                    <a href="/principles">Principles</a>
+                </li>
+                <li id="menu5" class="">
+                    <a href="/careers">Careers</a>
+                </li>
+                <li id="menu6" class="">
+                    <a href="/contact/index">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="col-md-8">
+            <h1><a href="/">WhiteSand Research, LLC</a></h1>
+        </div>
+        <div class="col-md-4">
+            
+                <div id="login">
+
+                    <a href="/auth/login" class="btn btn-primary">
+                        <span><i class="fa fa-lock"></i> Client Login</span>
+                    </a>
+                </div>
+            
+            
+        </div>
+    </div>
+
+    
+
+
+    <div id="content" class="row">
+        <div id="content-main" class="col-md-9">
+
+            
+        
+            
+            
+         	<h2>About Us</h2>  
+            <h2><strong>Company Overview</strong></h2>
+
+<h3>WhiteSand Research, LLC is a minority owned full-service research firm that offers reorganization and special situations&nbsp;research&nbsp;to institutional investors, hedge funds, and investment firms.&nbsp;<br />
+<br />
+<em>Investment Research:&nbsp;</em></h3>
+
+<p>The firm was established in 2006 as a boutique research group, publishing news and proprietary research reports on companies facing Event-Driven Catalysts, including Mergers and Acquisitions, Corporate Buyback Situations, Turnarounds, Spin-Offs, Post-Bankruptcies and Capital Restructurings. As an idea-generating based research company, our team is opportunistic. We are completely independent and our coverage changes based on what the market yields. Our goal is to save our clients time and help them make money.</p>
+
+<h3><em>Our Philosophy:&nbsp;</em></h3>
+
+<p>WhiteSand Research is a minority owned firm dedicated to the pursuit of independent creative thought and its application to the practice of investing. Publishing quality unbiased research newsletters has been the cornerstone of our clients&rsquo; investment process since the inception of the firm. Our goal is to put our clients first and uncover timely investment opportunities across a diverse range of industries. WhiteSand Research will continue to employ a value-oriented, event-driven investment strategy that seeks to capitalize on the most inefficient and attractive investment opportunities in the equity arena.&nbsp;</p>
+
+<p>&nbsp;</p>
+            
+	        
+ 
+    
+            
+    
+
+    
+    
+        </div>
+
+        <div id="content-side" class="col-md-3">
+            
+        
+  	<p><strong>Why Invest in Spin-Offs and Bankruptcies?</strong></p>
+
+<p>Investing in special situations (spin-offs &amp; bankruptcies) can be very lucrative. The spin-offs and bankruptcies remain overlooked, underappreciated, and often misunderstood by investors. The transactions can be complex and the available information is often limited, which to an extent could explain the lack of enthusiasm. However, history suggests that investing in special situations offers one of the most compelling and consistent sources of outsized returns.</p>
+
+<p><strong>Spin-offs</strong> have been a profitable investment area in the long term for investors. A number of academic studies show that they historically have generated far better returns than the overall stock market.Some companies wish to get rid of a weak, low-margin and non-core division, thereby allowing the management to focus solely on the core business. Other companies seek to highlight the attributes of a desirable unit whose full value may not be reflected in the parent&rsquo;s stock price. A spinoff can make it easier for the market to understand distinct businesses, and to value them more appropriately.</p>
+
+<p><strong>Bankruptcies</strong> present another great area to look for underlying value as the companies receive very little coverage and investors remain skeptical of the management&rsquo;s ability to execute post-bankruptcy. When a company uses the bankruptcy process, it can emerge as a much stronger business, often with a very healthy and strong balance sheet. But most investors overlook this, and they tend to associate the stock with the old, troubled company. Therefore, these post-bankruptcy stocks are often over-looked and under-valued.&nbsp;Also, former creditors (now majority equity holders) often seek to monetize their new equity holdings which could present attractive entry points.</p>
+
+<p>&nbsp;</p>
+ 
+    
+        </div>
+    </div>
+
+    <div id="footer" class="row">
+
+        <ul class="clearfix">
+            <li>
+                <a href="/aboutUs">About Us</a>
+            </li>
+            <li>
+                <a href="/research">Research Services</a>
+            </li>
+            <li>
+                <a href="/principles">Principles</a>
+            </li>
+            <li>
+                <a href="/careers">Careers</a>
+            </li>
+            <li>
+                <a href="/people">Our People</a>
+            </li>
+            <li>
+                <a href="/contact/index">Contact</a></a>
+            </li>
+            <li>
+                <a href="/terms">Terms of Use</a>
+            </li>
+
+        </ul>
+
+        Copyright 2011 WhiteSand Research, Inc.
+
+        <div class="disclaimer">
+            This web-site is for informational purposes only and does not constitute a complete description of our investment services or performance. Moreover, WhiteSand Research, LLC does not intend to provide investment advice through this site. The information contained herein does not constitute investment advice. The materials at this site are provided "as is" without warranty of any kind, either express or implied, to the fullest extent permissible pursuant to applicable law. Any recommendations contained in the reports on this site may not be suitable for all investors. Moreover, although the information contained herein has been obtained from sources believed to be reliable, its accuracy and completeness cannot be guaranteed. Neither we nor our information providers shall be liable for any errors or inaccuracies, regardless of cause, or the lack of timeliness of, or for any delay or interruption in the transmission thereof to the user. Our reports contain the best estimate of the authors regarding the information contained herein.  Investors are consequently encouraged to conduct their own diligence regarding any of the information or topics addressed herein. Our reports may not be reproduced, copied, duplicated or electronically forwarded without the expressed written permission of WhiteSand Research, LLC.
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
+
+

@@ -1,0 +1,259 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=iso-8859-1"/>
+    <title>WhiteSand Research, LLC</title>
+
+    <link rel="stylesheet" href="assets/whitesand-71cb9a0861ad2bab73a9e5eeb4cade91.css"/>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/whitesand-506a19e8e8b12e8e2cb70f42da3d0b20.js" ></script>
+
+    <script type="text/javascript">
+        Cufon.replace('h2');
+        Cufon.replace('a.button span, button span');
+        Cufon.replace('#menu a', {hover: true});
+    </script>
+
+    
+    
+        
+        <script type="text/javascript" src="assets/jquery.cycle.lite.min-1894a182e3b045b5c46a013dfe07ed9d.js"></script>
+
+        <script type="text/javascript">
+            Cufon.replace('.tabs li a', {hover: true});
+        </script>
+
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $("#banner .background").cycle({speed: 'slow', timeout: 6000});
+
+                selectTab(".tabs", "turnaround-tab");
+                standardizeHeights();
+
+                $(window).resize(function () {
+                    var activeTab = $('.tabs li.active a').attr('rel');
+                    selectTab('.tabs', activeTab);
+
+                    standardizeHeights();
+                });
+
+
+                $(".tabs ul a").click(function (event) {
+                    event.preventDefault();
+                    var tabs = $(this).parents("div.tabs");
+                    var contentId = $(this).attr("rel");
+
+                    selectTab(tabs, contentId);
+                });
+
+                /*$.ajax({
+                    type: 'GET',
+                    url: ('stocks?d=' + new Date().getTime()),
+                    beforeSend: function () {
+                        $("#stocks").html($("#spinner").html())
+                    },
+                    success: function (data) {
+                        $("#stocks").hide().html(data).fadeIn();
+                        standardizeHeights();
+                    }
+                });*/
+            });
+
+            function standardizeHeights() {
+                var contentHeight = $("#content2").height();
+                var sideHeight = $("#side2").height();
+
+                var maxHeight = Math.max(contentHeight, sideHeight);
+
+                $("#content").height(maxHeight);
+                $("#side").height(maxHeight);
+            }
+
+            function selectTab(tabs, contentId) {
+                $(tabs).find("li").removeClass("active");
+                $(tabs).find(".tabs2 div").hide();
+                var contentBox = $('#' + contentId);
+                $(contentBox).fadeIn('slow');
+                var descriptionHeight = $(contentBox).outerHeight();
+                $(".tabs2").animate({'height': descriptionHeight});
+
+                var tabsHeight = descriptionHeight + $('.tabs ul').outerHeight();
+                $(".tabs ul").animate({'margin-top': -tabsHeight});
+
+                var li = $(tabs).find("a[rel=" + contentId + "]").parents("li");
+                $(li).addClass("active");
+            }
+
+
+        </script>
+    
+        </parameter>
+    
+
+</head>
+
+<body class="home">
+
+<div id="spinner" class="spinner" style="display:none;">
+    <img src="/assets/spinner-c7b3cbb3ec8249a7121b722cdd76b870.gif"
+         alt="Loading..."/>
+</div>
+
+
+<div id="frame" class="container-fluid">
+
+    <div id="title" class="row">
+
+        <div id="menu">
+            <ul class="clearfix">
+
+                <li id="menu1" class="active">
+                    <a href="/">Home</a>
+                </li>
+
+                <li id="menu2" class="">
+                    <a href="/aboutUs">About Us</a>
+                </li>
+                <li id="menu3" class="">
+                    <a href="/research">Services</a>
+                </li>
+                <li id="menu4" class="">
+                    <a href="/principles">Principles</a>
+                </li>
+                <li id="menu5" class="">
+                    <a href="/careers">Careers</a>
+                </li>
+                <li id="menu6" class="">
+                    <a href="/contact/index">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="col-md-8">
+            <h1><a href="/">WhiteSand Research, LLC</a></h1>
+        </div>
+        <div class="col-md-4">
+            
+                <div id="login">
+
+                    <a href="/auth/login" class="btn btn-primary">
+                        <span><i class="fa fa-lock"></i> Client Login</span>
+                    </a>
+                </div>
+            
+            
+        </div>
+    </div>
+
+    
+        <div class="row" id="banner">
+            <div class="col-md-12">
+                
+        <div class="background">
+            <img src="images/banner1.png"/>
+            <img src="images/banner2.png"/>
+            <img src="images/banner3.png"/>
+        </div>
+    
+            </div>
+        </div>
+    
+
+
+    <div id="content" class="row">
+        <div id="content-main" class="col-md-9">
+
+            
+        
+
+        <h2>WhiteSand Research, LLC</h2>
+
+        <p>WhiteSand Research, LLC is a minority owned full-service company that offers research and consulting solutions, as well as recruiting services, to the financial services industry, including institutional
+            investors, hedge funds, and investment firms.</p>
+
+        <p>The company was founded in 2006 as a boutique research group, focusing on producing proprietary research reports on publicly-traded companies facing event-driven catalysts, including mergers and
+            acquisitions, corporate buyback situations, turnarounds, spin-offs, post-bankruptcies and capital restructurings.</p>
+
+        <p>Producing quality, in-depth and unbiased research to help our clients’ shape their investment processes has been the cornerstone of our company’s success.
+        WhiteSand employs a value-oriented, event-driven investment strategy that seeks to capitalize on the most inefficient and attractive investment opportunities.</p>
+
+        <p>Building on our strong and trusted relationships with our clients, WhiteSand now provides talent
+
+            acquisition services to the financial services industry. With over 10 years of experience working with
+
+            financial services executives and money managers, we are able to quickly understand a firm's strategy,
+
+            culture, and their ideal candidate. </p>
+
+        <p>WhiteSand manages the full life cycle of the talent acquisition process from open requisition to offer
+
+            stage, including: job specification and development, screening and qualifying top candidates,
+
+            interviewing and negotiating offers.</p>
+
+    
+    
+            
+    
+
+    
+
+    
+    
+        </div>
+
+        <div id="content-side" class="col-md-3">
+            
+        
+        <p><img src="images/side/contact-us.jpg" /></p>
+    
+    
+        </div>
+    </div>
+
+    <div id="footer" class="row">
+
+        <ul class="clearfix">
+            <li>
+                <a href="/aboutUs">About Us</a>
+            </li>
+            <li>
+                <a href="/research">Research Services</a>
+            </li>
+            <li>
+                <a href="/principles">Principles</a>
+            </li>
+            <li>
+                <a href="/careers">Careers</a>
+            </li>
+            <li>
+                <a href="/people">Our People</a>
+            </li>
+            <li>
+                <a href="/contact/index">Contact</a></a>
+            </li>
+            <li>
+                <a href="/terms">Terms of Use</a>
+            </li>
+
+        </ul>
+
+        Copyright 2011 WhiteSand Research, Inc.
+
+        <div class="disclaimer">
+            This web-site is for informational purposes only and does not constitute a complete description of our investment services or performance. Moreover, WhiteSand Research, LLC does not intend to provide investment advice through this site. The information contained herein does not constitute investment advice. The materials at this site are provided "as is" without warranty of any kind, either express or implied, to the fullest extent permissible pursuant to applicable law. Any recommendations contained in the reports on this site may not be suitable for all investors. Moreover, although the information contained herein has been obtained from sources believed to be reliable, its accuracy and completeness cannot be guaranteed. Neither we nor our information providers shall be liable for any errors or inaccuracies, regardless of cause, or the lack of timeliness of, or for any delay or interruption in the transmission thereof to the user. Our reports contain the best estimate of the authors regarding the information contained herein.  Investors are consequently encouraged to conduct their own diligence regarding any of the information or topics addressed herein. Our reports may not be reproduced, copied, duplicated or electronically forwarded without the expressed written permission of WhiteSand Research, LLC.
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
+
+
